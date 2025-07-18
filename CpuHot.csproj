@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon />
+    <StartupObject>CpuHot.App</StartupObject>
+    <AssemblyName>CpuHot</AssemblyName>
+    <RootNamespace>CpuHot</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OpenHardwareMonitorLib" Version="0.9.4-alpha" />
+  </ItemGroup>
+
+</Project>
