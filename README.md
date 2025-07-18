@@ -2,7 +2,6 @@
 
 A tiny, modern Windows utility that shows your CPU package temperature in real time, changes color according to heat level, and optionally logs or beeps when it gets too hot.
 
-![Screenshot](assets/screenshot.png)
 
 ## Features
 - **Live temperature** refreshed every second  
