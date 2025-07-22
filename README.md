@@ -1,6 +1,6 @@
 # CpuHot – Real-Time CPU Temperature Monitor
 
-A tiny, modern Windows utility that shows your CPU package temperature in real time, changes color according to heat level, and optionally logs or beeps when it gets too hot.
+A tiny, modern Windows utility that shows your CPU package temperature in real time
 
 
 ## Features
