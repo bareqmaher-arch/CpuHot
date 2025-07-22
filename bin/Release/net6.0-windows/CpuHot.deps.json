@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CpuHot/1.0.0": {
+        "dependencies": {
+          "OpenHardwareMonitorLib": "1.0.9196"
+        },
+        "runtime": {
+          "CpuHot.dll": {}
+        }
+      },
+      "HidSharp/2.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/HidSharp.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      },
+      "OpenHardwareMonitorLib/1.0.9196": {
+        "dependencies": {
+          "HidSharp": "2.1.0"
+        },
+        "runtime": {
+          "lib/net472/OpenHardwareMonitorLib.dll": {
+            "assemblyVersion": "1.0.9196.0",
+            "fileVersion": "1.0.9196.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CpuHot/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HidSharp/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UTdxWvbgp2xzT1Ajaa2va+Qi3oNHJPasYmVhbKI2VVdu1VYP6yUG+RikhsHvpD7iM0S8e8UYb5Qm/LTWxx9QAA==",
+      "path": "hidsharp/2.1.0",
+      "hashPath": "hidsharp.2.1.0.nupkg.sha512"
+    },
+    "OpenHardwareMonitorLib/1.0.9196": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+VsN/TfI8Y+RjOE4d8Ko4Kb5u/HW2mb6oNqH6NMERxS0xL64kndE/tEFSRQHUyJzpYR3XMSp3QWkq9aHcFmvKw==",
+      "path": "openhardwaremonitorlib/1.0.9196",
+      "hashPath": "openhardwaremonitorlib.1.0.9196.nupkg.sha512"
+    }
+  }
+}

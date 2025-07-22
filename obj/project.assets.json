@@ -1,0 +1,170 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "HidSharp/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/HidSharp.dll": {
+            "related": ".pdb;.XML"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/HidSharp.dll": {
+            "related": ".pdb;.XML"
+          }
+        }
+      },
+      "OpenHardwareMonitorLib/1.0.9196": {
+        "type": "package",
+        "dependencies": {
+          "HidSharp": "2.1.0"
+        },
+        "compile": {
+          "lib/net472/OpenHardwareMonitorLib.dll": {}
+        },
+        "runtime": {
+          "lib/net472/OpenHardwareMonitorLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HidSharp/2.1.0": {
+      "sha512": "UTdxWvbgp2xzT1Ajaa2va+Qi3oNHJPasYmVhbKI2VVdu1VYP6yUG+RikhsHvpD7iM0S8e8UYb5Qm/LTWxx9QAA==",
+      "type": "package",
+      "path": "hidsharp/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "HidSharp.chm",
+        "hidsharp.2.1.0.nupkg.sha512",
+        "hidsharp.nuspec",
+        "lib/net35/HidSharp.XML",
+        "lib/net35/HidSharp.dll",
+        "lib/net35/HidSharp.pdb",
+        "lib/netstandard2.0/HidSharp.XML",
+        "lib/netstandard2.0/HidSharp.dll",
+        "lib/netstandard2.0/HidSharp.pdb"
+      ]
+    },
+    "OpenHardwareMonitorLib/1.0.9196": {
+      "sha512": "+VsN/TfI8Y+RjOE4d8Ko4Kb5u/HW2mb6oNqH6NMERxS0xL64kndE/tEFSRQHUyJzpYR3XMSp3QWkq9aHcFmvKw==",
+      "type": "package",
+      "path": "openhardwaremonitorlib/1.0.9196",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net472/OpenHardwareMonitorLib.dll",
+        "openhardwaremonitorlib.1.0.9196.nupkg.sha512",
+        "openhardwaremonitorlib.nuspec",
+        "packageicon.png"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "OpenHardwareMonitorLib >= 0.9.4-alpha"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\5G\\.nuget\\packages\\": {},
+    "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\C#\\CpuHot\\CpuHot\\CpuHot.csproj",
+      "projectName": "CpuHot",
+      "projectPath": "D:\\C#\\CpuHot\\CpuHot\\CpuHot.csproj",
+      "packagesPath": "C:\\Users\\5G\\.nuget\\packages\\",
+      "outputPath": "D:\\C#\\CpuHot\\CpuHot\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\5G\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "OpenHardwareMonitorLib": {
+            "target": "Package",
+            "version": "[0.9.4-alpha, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "CpuHot depends on OpenHardwareMonitorLib (>= 0.9.4-alpha) but OpenHardwareMonitorLib 0.9.4-alpha was not found. An approximate best match of OpenHardwareMonitorLib 1.0.9196 was resolved.",
+      "libraryId": "OpenHardwareMonitorLib",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'OpenHardwareMonitorLib 1.0.9196' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "OpenHardwareMonitorLib",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}
